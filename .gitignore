@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Local scratch copies / clones
+clone/
+clone-*/
+cloned/
+etc/
