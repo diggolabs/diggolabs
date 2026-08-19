@@ -135,6 +135,45 @@ img{display:block;max-width:100%;height:auto}
     padding:80px 32px;
     border-top:1px solid rgba(255,255,255,.06);
 }
+
+/* ── Portfolio ── */
+.portfolio{
+    max-width:960px;margin:0 auto;
+    padding:72px 32px 24px;
+    border-top:1px solid rgba(255,255,255,.06);
+}
+.portfolio-intro h2{
+    font-size:.92rem;font-weight:600;color:#fff;
+    margin-bottom:8px;
+}
+.portfolio-intro p{
+    font-size:.88rem;color:rgba(255,255,255,.4);
+    margin-bottom:28px;
+}
+.portfolio-card{
+    display:block;
+    padding:28px 32px;
+    border:1px solid rgba(255,255,255,.1);
+    border-radius:16px;
+    transition:border-color .15s,background .15s;
+}
+.portfolio-card:hover{
+    border-color:rgba(255,255,255,.28);
+    background:rgba(255,255,255,.03);
+}
+.portfolio-card h3{
+    font-size:1.15rem;font-weight:600;margin-bottom:8px;
+}
+.portfolio-card p{
+    font-size:.9rem;line-height:1.65;
+    color:rgba(255,255,255,.45);
+    margin-bottom:14px;
+    max-width:560px;
+}
+.portfolio-card span{
+    font-size:.85rem;color:rgba(255,255,255,.7);
+}
+
 .about-teaser p.lead{
     font-size:clamp(1.15rem,2.4vw,1.45rem);line-height:1.6;font-weight:400;
     color:rgba(255,255,255,.5);
@@ -268,6 +307,8 @@ img{display:block;max-width:100%;height:auto}
     }
     .btn-primary,.btn-secondary{width:100%;justify-content:center;min-height:48px}
     .pillars{margin-left:0;margin-right:0}
+    .portfolio{padding:48px 20px 8px}
+    .portfolio-card{padding:22px 20px}
     .pillar{padding:28px 20px}
     .pillar h3{font-size:.88rem}
     .pillar p{font-size:.84rem}
